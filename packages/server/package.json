@@ -2,7 +2,7 @@
   "name": "vite-plugin-rpc",
   "type": "module",
   "version": "0.0.2",
-  "description": "Create a tsup project",
+  "description": "The best json-rpc plugin for vite⚡️",
   "author": "Naily Zero <zero@naily.cc> (https://naily.cc)",
   "exports": {
     ".": {
