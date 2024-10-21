@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-rpc",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The best json-rpc plugin for vite⚡️",
   "author": "Naily Zero <zero@naily.cc> (https://naily.cc)",
   "exports": {
