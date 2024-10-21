@@ -10,6 +10,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "lint": "eslint .",
+    "release": "pnpm -F vite-plugin-rpc release",
+    "postinstall": "npx simple-git-hooks",
+    "test": "vitest"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
     "@types/js-yaml": "^4.0.9",
@@ -29,10 +35,5 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "postinstall": "npx simple-git-hooks",
-    "test": "vitest"
   }
 }
